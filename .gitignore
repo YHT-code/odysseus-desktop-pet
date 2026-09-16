@@ -1,0 +1,23 @@
+/Odysseus/
+/Mochi/
+qa/
+src/bin/
+src/obj/
+*.zip
+
+# Keep generated working files out of Git, but retain the runtime assets required
+# to rebuild the app from a fresh checkout.
+art/odysseus/*
+!art/odysseus/final/
+art/odysseus/final/*
+!art/odysseus/final/spritesheet.png
+!art/odysseus/final/odysseus.ico
+
+art/odysseus-pixel/*
+!art/odysseus-pixel/final/
+art/odysseus-pixel/final/*
+!art/odysseus-pixel/final/spritesheet.png
+!art/odysseus-pixel/final/sleeping.png
+!art/odysseus-pixel/final/spritesheet.webp
+!art/odysseus-pixel/final/odysseus.ico
+!art/odysseus-pixel/final/pet.json
